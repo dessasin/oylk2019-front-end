@@ -37,7 +37,7 @@ p{
     color: white;
     padding: 20px;
     border: 130px;
-    border-color:red;
+    border: 3px solid green;
     
 }
 
@@ -48,5 +48,22 @@ p{
 
 td{
 
-    padding: 20px;
+    padding: 10px;
+}
+
+
+/* inline element özelleştirme*/
+
+span{
+
+    background-color: blue;
+    padding: 4px
+    /*span elementi inline bir element olduğu için margin olarak vereceğimiz boşluklar sağa ve sola doğru verilir*/ 
+}
+
+div span {
+
+    background-color: pink;
+    margin: 10px;
+    display: block; /*display görüntü biçimini değiştirmek için kullanılan css özelliğidir*/
 }
