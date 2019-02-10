@@ -1,0 +1,52 @@
+body {
+    background-color:rebeccapurple;
+    
+}
+
+h1, h2 {
+
+    color: beige;
+}
+
+ul li {
+
+    color: yellow;
+
+}
+table {
+    background-color: aliceblue;
+    margin:100px;/* margin dış boşlukları ifade eder*/
+    width: 200px;
+    height: 100px;
+}
+
+/* marginler otomatik yazılabiliyor saat yönünde üst>sağ>alt>sol biçiminde */
+/*margin 2 ve 3 parça olarak da tanımlanabilir
+örnek olarak;
+
+margin : 20px 30px; alt üst 20 sağ sol 30 px gibi
+
+3 lü kullanım örneği;
+
+margin 20px 30px 50px; üst 20px sağ sol 30px alt 50px 
+*/
+p{
+
+    margin: 40px 50px 40px 50px;
+    background-color:black;
+    color: white;
+    padding: 20px;
+    border: 130px;
+    border-color:red;
+    
+}
+
+
+/*padding iç boşluk anlamındadır nesnelerin iç boşluğunu düzenlemek için kulanılır*/
+
+
+
+td{
+
+    padding: 20px;
+}
