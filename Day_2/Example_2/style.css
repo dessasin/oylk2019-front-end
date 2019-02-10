@@ -1,11 +1,14 @@
 body {
     background-color:rebeccapurple;
-    
+    font-family: Arial, Helvetica, sans-serif;/* temel font değiştirme. bu kısımda  önem derecesi vardır yani arial yoksa helvetica kullan şeklinde*/
+    font-size: 12px;
+    font-weight: 300; /*font kalınlığı 100 ile 700 arasında değişir*/
 }
 
 h1, h2 {
 
     color: beige;
+    text-decoration: underline;/*text dekorasyonu sınıf ile yazının altını çizdik*/
 }
 
 ul li {
@@ -13,6 +16,15 @@ ul li {
     color: yellow;
 
 }
+
+.links{
+
+    color: red;
+
+}
+
+
+
 table {
     background-color: aliceblue;
     margin:100px;/* margin dış boşlukları ifade eder*/
@@ -25,12 +37,10 @@ table {
 örnek olarak;
 
 margin : 20px 30px; alt üst 20 sağ sol 30 px gibi
-
 3 lü kullanım örneği;
-
 margin 20px 30px 50px; üst 20px sağ sol 30px alt 50px 
 */
-p{
+#paragraf{
 
     margin: 40px 50px 40px 50px;
     background-color:black;
@@ -41,16 +51,21 @@ p{
     
 }
 
+#lorem{
+    margin: 40px 50px 40px 50px;
+    background-color:purple;
+    color: white;
+    padding: 20px;
+    border: 130px;
+    border: 3px solid red;
 
+}
 /*padding iç boşluk anlamındadır nesnelerin iç boşluğunu düzenlemek için kulanılır*/
-
-
 
 td{
 
     padding: 10px;
 }
-
 
 /* inline element özelleştirme*/
 
@@ -66,4 +81,13 @@ div span {
     background-color: pink;
     margin: 10px;
     display: block; /*display görüntü biçimini değiştirmek için kullanılan css özelliğidir*/
+}
+/*
+id ile tanımadığımız nesneleri # ile classları . ile çağırıyoruz
+önemli olarak eklediğimiz css nesnesi,html ile tanımladığımız sınıfı çağırdık
+*/
+.onemli{
+
+    border-bottom: 2px solid red;
+    width: 100px;
 }
