@@ -1,3 +1,12 @@
+/*
+kullanıcıda bulunmayan ancak bizim kullandığımız fontları bu şekilde tanımlıyoruz
+
+@font-face{
+    font-family: 'fontum'
+    src: url('font.ttf')
+
+}
+*/
 body {
     background-color:rebeccapurple;
     font-family: Arial, Helvetica, sans-serif;/* temel font değiştirme. bu kısımda  önem derecesi vardır yani arial yoksa helvetica kullan şeklinde*/
