@@ -1,5 +1,11 @@
 #menu{
-
     background-color: #379DA6;
+}
+
+#menu ul {
+
+    list-style: none;
+    display: inline-block;
+    
 
 }
