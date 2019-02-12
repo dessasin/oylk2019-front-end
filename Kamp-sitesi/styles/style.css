@@ -1,0 +1,111 @@
+*{
+
+    box-sizing: border-box;
+}
+body{
+
+    font-family: dosis, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    color: #1A546F;
+}
+
+a{
+    font-weight: 700;
+    color: #1A546F;
+}
+
+#menu{
+    background-color: #379DA6;
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+}
+#menu ul li {
+
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+        
+}
+
+#menu ul li a {
+    padding: 18px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+#menu ul li a:hover{
+    background-color:#1A546F;
+
+}
+
+.kapsayici{
+
+    width: 1170px;/*genel boşlukları vermek içi oluşturduğumuz sınıf*/
+    margin: 0 auto;
+}
+
+#govde{
+    background-image: url('../images/background.jpg');
+    background-color: #8dc4be;
+    padding: 60 0px;
+
+}
+
+.sol{
+    float: left;
+    width: 680px;
+}
+
+.sag{
+
+    margin: 20px 0px 0px 20px;
+    width: 440px;
+    float:right;
+}
+
+.clearfix{
+
+    clear: both;
+}
+
+.takvim thead th {
+
+    background-color: #900;
+    color: #fff;  
+    font-size: 35px;
+    line-height: 60px;
+}
+
+.takvim{
+    border-spacing: 0;
+    background: #fff;
+    border-collapse: collapse;
+    box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 5);
+}
+
+.takvim td{
+    padding: 14px 10px;
+    border: 1px solid #bbb;
+    background-color: #fff;
+}
+
+.guncel td{
+
+        background-color:rgba(7, 153, 146, 7);
+        color:#fff;
+        font-weight: 700;
+}
+
+#altkisim{
+    background-color: #272727;
+    height: 200px;
+    background-image: url('../images/footer.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
